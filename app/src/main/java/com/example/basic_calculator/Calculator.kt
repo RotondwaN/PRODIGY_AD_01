@@ -16,9 +16,9 @@ import com.example.basic_calculator.ui.theme.Orange
 
 @Composable
 fun Calculator(
+    modifier: Modifier = Modifier,
     state: CalculatorState,
     buttonSpacing: Dp = 8.dp,
-    modifier: Modifier = Modifier,
     onAction: (CalculatorActions) -> Unit
 ) {
     Box(modifier = modifier){
